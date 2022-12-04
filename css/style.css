@@ -1,3 +1,95 @@
-.hidden {
-  display: none;
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+#login-form,
+#todo-form,
+#todo-list,
+#quote,
+#weather {
+  position: absolute;
+}
+
+body img {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+}
+
+h2 {
+  color: #fff;
+  top: 50%;
+  left: 40%;
+  font: bold 100px "arial";
+  text-align: center;
+}
+
+#login-form {
+  top: 70%;
+  left: 41%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+#login-form .write-text {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+#login-form .login-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#todo-form {
+  top: 80%;
+  left: 38.9%;
+  text-align: center;
+}
+
+#todo-form input {
+  margin-top: 2%;
+  width: 500px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#todo-list {
+  margin-top: 5%;
+  font: normal 30px "arial";
+  text-align: center;
+}
+
+#quote {
+  top: 90%;
+  left: 30%;
+  color: #fff;
+  font: bold 25px "arial";
+}
+
+#weather {
+  top: 98%;
+  left: 44%;
+  color: #fff;
+  font: bold 25px "arial";
 }
